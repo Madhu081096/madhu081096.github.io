@@ -16,6 +16,7 @@ const Navigation: React.FC<NavigationProps> = ({ activeTab, onTabChange }) => {
               <Brain className="text-white" size={20} />
             </div>
             <span className="text-xl font-bold text-gray-900">AI Engineer Portfolio</span>
+            <span className="text-xl font-bold text-gray-900">ML Engineer Portfolio</span>
           </div>
           
           <div className="flex gap-1 bg-gray-100 rounded-lg p-1">

@@ -10,10 +10,10 @@ const AIFooter = () => {
             <div className="w-12 h-12 bg-gradient-to-br from-purple-400 to-blue-400 rounded-xl flex items-center justify-center">
               <Brain className="text-white" size={24} />
             </div>
-            <h3 className="text-2xl font-bold">Dr. Sarah Chen</h3>
+            <h3 className="text-2xl font-bold">Madhu Mithra K K</h3>
             <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-3 py-1">
               <Award size={16} />
-              <span className="text-sm">AI/ML Engineer</span>
+              <span className="text-sm">ML Engineer</span>
             </div>
           </div>
           
@@ -47,37 +47,37 @@ const AIFooter = () => {
             <div>
               <h4 className="font-semibold mb-3 text-purple-200">Expertise</h4>
               <ul className="space-y-2 text-gray-300">
+                <li>Computer Vision</li>
+                <li>Medical Image Analysis</li>
                 <li>Machine Learning</li>
                 <li>Deep Learning</li>
-                <li>Computer Vision</li>
-                <li>Natural Language Processing</li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-3 text-purple-200">Technologies</h4>
               <ul className="space-y-2 text-gray-300">
-                <li>Python, TensorFlow, PyTorch</li>
-                <li>AWS, Google Cloud, Azure</li>
-                <li>Docker, Kubernetes</li>
-                <li>MLOps & Production Systems</li>
+                <li>Python, PyTorch, OpenCV</li>
+                <li>Medical Imaging, MRI, CT</li>
+                <li>Signal Processing, GANs</li>
+                <li>Raspberry Pi, Edge Computing</li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-3 text-purple-200">Impact</h4>
               <ul className="space-y-2 text-gray-300">
-                <li>50+ AI Models Deployed</li>
-                <li>15+ Hospitals Using Our AI</li>
-                <li>1M+ Daily Transactions Processed</li>
-                <li>PhD in Computer Science</li>
+                <li>Published IEEE Research</li>
+                <li>Medical Industry Collaborations</li>
+                <li>International Research Projects</li>
+                <li>Computer Vision Specialist</li>
               </ul>
             </div>
           </div>
           
           <p className="text-purple-200 mb-2">
-            Made with <Heart size={16} className="inline text-red-400 mx-1" /> and cutting-edge AI
+            Made with <Heart size={16} className="inline text-red-400 mx-1" /> and passion for ML research
           </p>
           <p className="text-gray-400 text-sm">
-            © 2024 Dr. Sarah Chen. All rights reserved. | Advancing AI for a better tomorrow.
+            © 2024 Madhu Mithra K K. All rights reserved. | Advancing ML for medical and industrial applications.
           </p>
         </div>
       </div>

@@ -4,62 +4,82 @@ import { GraduationCap, Award, Calendar, ExternalLink } from 'lucide-react';
 const Courses = () => {
   const courses = [
     {
-      title: "Deep Learning Specialization",
-      provider: "Stanford University / Coursera",
-      instructor: "Andrew Ng",
-      date: "2023",
-      duration: "4 months",
-      skills: ["Neural Networks", "CNNs", "RNNs", "Deep Learning"],
+      title: "Pattern Recognition and Machine Learning",
+      provider: "Academic Coursework",
+      instructor: "Graduate Level",
+      date: "Academic",
+      duration: "Semester",
+      skills: ["Pattern Recognition", "Statistical Learning", "Classification", "Regression"],
       certificate: "#",
-      grade: "98%"
+      grade: "A"
     },
     {
-      title: "Machine Learning Engineering for Production (MLOps)",
-      provider: "DeepLearning.AI",
-      instructor: "Andrew Ng, Laurence Moroney",
-      date: "2023",
-      duration: "3 months",
-      skills: ["MLOps", "Model Deployment", "Data Pipelines", "Monitoring"],
+      title: "Computer Vision",
+      provider: "Academic Coursework",
+      instructor: "Graduate Level",
+      date: "Academic",
+      duration: "Semester",
+      skills: ["Image Processing", "Feature Detection", "Object Recognition", "Deep Learning"],
       certificate: "#",
-      grade: "96%"
+      grade: "A"
     },
     {
-      title: "Advanced Computer Vision",
-      provider: "MIT OpenCourseWare",
-      instructor: "Prof. Antonio Torralba",
-      date: "2022",
-      duration: "6 months",
-      skills: ["Computer Vision", "Object Detection", "Image Segmentation", "GANs"],
+      title: "Geometry & Photometry based Computer Vision",
+      provider: "Academic Coursework",
+      instructor: "Graduate Level",
+      date: "Academic",
+      duration: "Semester",
+      skills: ["3D Geometry", "Photometry", "Structure from Motion", "Stereo Vision"],
       certificate: "#",
       grade: "A+"
     },
     {
-      title: "Natural Language Processing with Transformers",
-      provider: "Hugging Face / Coursera",
-      instructor: "Lewis Tunstall, Leandro von Werra",
-      date: "2022",
-      duration: "2 months",
-      skills: ["NLP", "BERT", "GPT", "Transformers", "Fine-tuning"],
+      title: "Advanced Digital Signal Processing",
+      provider: "Academic Coursework",
+      instructor: "Graduate Level",
+      date: "Academic",
+      duration: "Semester",
+      skills: ["Signal Processing", "Fourier Analysis", "Filter Design", "Spectral Analysis"],
       certificate: "#",
-      grade: "95%"
+      grade: "A"
     },
     {
-      title: "Reinforcement Learning",
-      provider: "University of Alberta / Coursera",
-      instructor: "Martha White, Adam White",
-      date: "2021",
-      duration: "4 months",
-      skills: ["Q-Learning", "Policy Gradients", "Actor-Critic", "Multi-Agent RL"],
+      title: "Probability Foundations for Electrical Engineers",
+      provider: "Academic Coursework",
+      instructor: "Graduate Level",
+      date: "Academic",
+      duration: "Semester",
+      skills: ["Probability Theory", "Random Processes", "Statistical Inference", "Estimation"],
       certificate: "#",
-      grade: "94%"
+      grade: "A"
     },
     {
-      title: "AI for Healthcare",
-      provider: "Stanford University",
-      instructor: "Prof. Pranav Rajpurkar",
-      date: "2021",
-      duration: "3 months",
-      skills: ["Medical AI", "Diagnostic Models", "Healthcare Data", "Ethics in AI"],
+      title: "Mathematical Methods in System Engineering",
+      provider: "Academic Coursework",
+      instructor: "Graduate Level",
+      date: "Academic",
+      duration: "Semester",
+      skills: ["Linear Algebra", "Optimization", "Control Theory", "System Analysis"],
+      certificate: "#",
+      grade: "A"
+    },
+    {
+      title: "Convex Optimization",
+      provider: "Academic Coursework",
+      instructor: "Graduate Level",
+      date: "Academic",
+      duration: "Semester",
+      skills: ["Convex Analysis", "Optimization Algorithms", "Duality", "Applications"],
+      certificate: "#",
+      grade: "A"
+    },
+    {
+      title: "Medical Image Analysis",
+      provider: "Academic Coursework",
+      instructor: "Graduate Level",
+      date: "Academic",
+      duration: "Semester",
+      skills: ["Medical Imaging", "Image Segmentation", "Registration", "Quantitative Analysis"],
       certificate: "#",
       grade: "A"
     }

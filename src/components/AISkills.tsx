@@ -42,8 +42,8 @@ const AISkills = () => {
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">Skills & Technologies</h2>
           <div className="w-32 h-1 bg-gradient-to-r from-purple-600 to-blue-600 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Comprehensive expertise across the AI/ML technology stack, from research and experimentation 
-            to production deployment and scaling.
+            Comprehensive expertise in machine learning, computer vision, and medical image analysis, 
+            from research and experimentation to practical applications.
           </p>
         </div>
         
