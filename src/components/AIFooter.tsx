@@ -26,7 +26,7 @@ const AIFooter = () => {
               <Github size={24} />
             </a>
             <a 
-              href="#" 
+              href="https://www.linkedin.com/in/madhumithra-krishnamoorthy-49981a153/" 
               className="p-4 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 transform hover:scale-110"
               aria-label="LinkedIn"
             >
