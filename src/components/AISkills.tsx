@@ -16,7 +16,7 @@ const AISkills = () => {
     {
       title: "ML-Ops",
       icon: <Cloud className="text-teal-600" size={28} />,
-      skills: ["Docker", "Dagster", "Azure", "GCP"]
+      skills: ["Docker", "Dagster", "Cloud Service Platforms (Azure, GCP)"]
     },
     {
       title: "Languages",

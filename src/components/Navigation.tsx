@@ -15,7 +15,6 @@ const Navigation: React.FC<NavigationProps> = ({ activeTab, onTabChange }) => {
             <div className="w-10 h-10 bg-gradient-to-br from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
               <Brain className="text-white" size={20} />
             </div>
-            <span className="text-xl font-bold text-gray-900">AI Engineer Portfolio</span>
             <span className="text-xl font-bold text-gray-900">ML Engineer Portfolio</span>
           </div>
           
@@ -41,7 +40,8 @@ const Navigation: React.FC<NavigationProps> = ({ activeTab, onTabChange }) => {
             >
               <FolderOpen size={18} />
               All Projects
-          <span className="text-xl font-bold text-gray-900">ML Engineer Portfolio</span>
+            </button>
+          </div>
         </div>
       </div>
     </nav>
@@ -49,5 +49,3 @@ const Navigation: React.FC<NavigationProps> = ({ activeTab, onTabChange }) => {
 };
 
 export default Navigation;
-  )
-}

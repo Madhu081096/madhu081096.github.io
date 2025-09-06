@@ -10,148 +10,126 @@ const AllProjects = () => {
       title: "PDF Reader using LangChain & GPT-OSS",
       description: "Built an intelligent PDF reader leveraging LangChain and GPT-OSS to enable context-aware querying and summarization of documents. Utilized FAISS as a vector database to store chunked PDF embeddings generated using Sentence-Transformer (all-mpnet-base-v2). Implemented a retrieval-based pipeline where user queries are matched with the most relevant PDF chunks, and GPT-OSS is used to generate accurate answers and concise summaries.",
       technologies: ["LangChain", "GPT-OSS", "FAISS", "Sentence-Transformers", "all-mpnet-base-v2", "Python"],
-      category: "Computer Vision",
+      category: "Featured",
       image: "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=800",
       liveUrl: "#",
       githubUrl: "#",
       date: "2024",
-      impact: "Intelligent Document Processing",
-      accuracy: "Context-Aware Responses",
       featured: true
     },
     {
       title: "Reference-Based Texture Transfer for MRI Super-Resolution (IEEE ISBI 2021)",
       description: "Developed a reference-based, unpaired multi-contrast texture transfer strategy for deep learning-based in-plane and across-plane super-resolution of MRI spine images. Achieved significant improvements over baseline architectures and published the work in IEEE ISBI 2021.",
       technologies: ["Deep Learning", "CNNs", "MRI Super-Resolution", "Texture Transfer", "Python", "PyTorch"],
-      category: "Machine Learning",
+      category: "Featured",
       image: "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=800",
       liveUrl: "#",
       githubUrl: "#",
       date: "2021",
-      impact: "Published Research",
-      accuracy: "Significant Improvements",
       featured: true
     },
     {
       title: "Simulation and Automatic Detection of Artifacts in MRI Images",
       description: "Collaborated with GE Healthcare data scientists and researchers to simulate artifacts in MRI images and developed algorithms to automatically classify images based on the severity of artifacts.",
-      technologies: ["MRI", "Artifact Simulation", "Classification", "GE Healthcare", "Python"],
-      category: "Medical Imaging",
+      technologies: ["MRI Imaging", "Image Processing", "Artifact Simulation", "Image Classification", "Python", "PyTorch"],
+      category: "Featured",
       image: "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=800",
       liveUrl: "#",
       githubUrl: "#",
       date: "2021",
-      impact: "GE Healthcare Collaboration",
-      accuracy: "Artifact Classification",
       featured: true
     },
     {
       title: "MediSinGAN – Medical Data Generation using GAN (EEML 2021, Budapest)",
       description: "Collaborated with 6 international participants during EEML'21 to simulate synthetic medical data by training a Generative Adversarial Network (GAN) on a single training image, enabling efficient medical data generation.",
       technologies: ["GANs", "Medical Image Synthesis", "Deep Learning", "PyTorch", "Python"],
-      category: "Generative AI",
+      category: "Featured",
       image: "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=800",
       liveUrl: "#",
       githubUrl: "#",
       date: "2021",
-      impact: "International Collaboration",
-      accuracy: "Synthetic Generation",
       featured: false
     },
     {
       title: "Vertebrae-Level Fracture Classification using CT Images",
       description: "Collaborated with Eindhoven Medical Robotics to classify vertebrae-level fractures from CT images. Developed Digitally Reconstructed Radiographs (DRR) from CT volumes to enable accurate fracture classification.",
       technologies: ["Medical Imaging", "CT Image Analysis", "DRR Reconstruction", "Image Classification", "Python", "PyTorch"],
-      category: "Machine Vision",
+      category: "Featured",
       image: "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=800",
       liveUrl: "#",
       githubUrl: "#",
       date: "2021",
-      impact: "Medical Robotics Collaboration",
-      accuracy: "Accurate Classification",
       featured: false
     },
     {
       title: "Real-Time Machine Vision System for Industrial Component Analysis",
       description: "Designed and developed a real-time machine vision system for critical dimension analysis of industrial components. Implemented Canny edge detection for precise dimension measurement of industrial sleeves and deployed the solution on a Raspberry Pi for on-device processing.",
       technologies: ["Machine Vision", "Edge Detection", "Image Processing", "Raspberry Pi", "OpenCV", "Python"],
-      category: "Machine Vision",
+      category: "Featured",
       image: "https://images.pexels.com/photos/2800832/pexels-photo-2800832.jpeg?auto=compress&cs=tinysrgb&w=800",
       liveUrl: "#",
       githubUrl: "#",
       date: "2020",
-      impact: "Industrial Application",
-      accuracy: "Precise Measurement",
       featured: false
     },
     {
       title: "Machine Learning-Driven Alloy Design for Additive Manufacturing",
       description: "Proposed a workflow combining machine learning and physical simulation to design alloys optimized for additive manufacturing. Focused on developing a machine learning model to predict alloy properties based on composition, enabling seamless integration with physical simulation results.",
       technologies: ["Machine Learning", "Predictive Modeling", "Data Analysis", "Python", "Scikit-learn", "Pandas", "NumPy"],
-      category: "Materials Science",
+      category: "Featured",
       image: "https://images.pexels.com/photos/4481259/pexels-photo-4481259.jpeg?auto=compress&cs=tinysrgb&w=800",
       liveUrl: "#",
       githubUrl: "#",
       date: "2020",
-      impact: "Manufacturing Innovation",
-      accuracy: "Property Prediction",
       featured: false
     },
     {
       title: "UNet-Based Vertebrae Segmentation using Fuzzy C-Means Prior",
       description: "Developed a medical image segmentation pipeline to segment vertebrae in MRI images using fuzzy C-means clustering as a prior to a UNet architecture. Evaluated the effect of incorporating fuzzy C-means segmentation as an input prior to improve UNet's performance.",
       technologies: ["Medical Image Analysis", "Image Segmentation", "Fuzzy C-Means", "UNet", "Python", "PyTorch"],
-      category: "Medical Imaging",
+      category: "Academic",
       image: "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=800",
       liveUrl: "#",
       githubUrl: "#",
       date: "Academic",
-      impact: "Academic Project",
-      accuracy: "Improved Segmentation",
       featured: false
     },
     {
       title: "MRI Brain Cancer Classification using Support Vector Machine",
       description: "Extracted GLCM texture features from MRI brain images and applied a Support Vector Machine (SVM) classifier to distinguish between cancerous and non-cancerous MRI scans.",
       technologies: ["Medical Imaging", "Texture Analysis", "GLCM Features", "SVM", "MATLAB"],
-      category: "Medical Imaging",
+      category: "Academic",
       image: "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=800",
       liveUrl: "#",
       githubUrl: "#",
       date: "Academic",
-      impact: "Academic Project",
-      accuracy: "Cancer Detection",
       featured: false
     },
     {
       title: "Continuous Digit Recognition using Concatenated HMMs",
       description: "Implemented an isolated digit recognition system on recorded audio clips using Hidden Markov Models (HMMs) and extended it to continuous digit recognition through concatenated HMMs.",
       technologies: ["Speech Recognition", "HMMs", "Audio Processing", "Python", "C++"],
-      category: "Machine Learning",
+      category: "Academic",
       image: "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=800",
       liveUrl: "#",
       githubUrl: "#",
       date: "Academic",
-      impact: "Academic Project",
-      accuracy: "Speech Recognition",
       featured: false
     },
     {
       title: "Sorting and Grading of Tomatoes using K-Means and SVM",
       description: "Developed a sorting and grading system for tomatoes based on size and ripening levels. Used K-means clustering for image segmentation and applied an SVM classifier to categorize tomatoes into quality grades.",
       technologies: ["Image Processing", "K-Means Clustering", "SVM", "Python", "OpenCV"],
-      category: "Computer Vision",
+      category: "Academic",
       image: "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=800",
       liveUrl: "#",
       githubUrl: "#",
       date: "Academic",
-      impact: "Academic Project",
-      accuracy: "Quality Grading",
       featured: false
     }
   ];
 
-  const categories = ['All', 'Computer Vision', 'Machine Learning', 'Medical Imaging', 'Machine Vision', 'Generative AI', 'Materials Science'];
+  const categories = ['All', 'Featured', 'Academic'];
 
   const filteredProjects = projects.filter(project => {
     const matchesSearch = project.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -251,37 +229,23 @@ const AllProjects = () => {
                 <h3 className="text-xl font-bold text-gray-900 mb-3">{project.title}</h3>
                 <p className="text-gray-600 mb-4 leading-relaxed text-sm">{project.description}</p>
                 
-                <div className="grid grid-cols-2 gap-3 mb-4">
-                  <div className="bg-green-50 p-3 rounded-lg">
-                    <div className="flex items-center gap-2 mb-1">
-                      <TrendingUp className="text-green-600" size={14} />
-                      <span className="text-green-800 text-xs font-medium">Impact</span>
-                    </div>
-                    <p className="text-green-700 text-xs font-medium">{project.impact}</p>
+                <div className="mb-4">
+                  <h4 className="text-sm font-semibold text-gray-900 mb-2">Tech Stack:</h4>
+                  <div className="flex flex-wrap gap-2">
+                    {project.technologies.slice(0, 3).map((tech, techIndex) => (
+                      <span 
+                        key={techIndex}
+                        className="px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded-full"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                    {project.technologies.length > 3 && (
+                      <span className="px-2 py-1 bg-gray-100 text-gray-500 text-xs rounded-full">
+                        +{project.technologies.length - 3} more
+                      </span>
+                    )}
                   </div>
-                  <div className="bg-blue-50 p-3 rounded-lg">
-                    <div className="flex items-center gap-2 mb-1">
-                      <Zap className="text-blue-600" size={14} />
-                      <span className="text-blue-800 text-xs font-medium">Accuracy</span>
-                    </div>
-                    <p className="text-blue-700 text-xs font-medium">{project.accuracy}</p>
-                  </div>
-                </div>
-                
-                <div className="flex flex-wrap gap-2">
-                  {project.technologies.slice(0, 3).map((tech, techIndex) => (
-                    <span 
-                      key={techIndex}
-                      className="px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded-full"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                  {project.technologies.length > 3 && (
-                    <span className="px-2 py-1 bg-gray-100 text-gray-500 text-xs rounded-full">
-                      +{project.technologies.length - 3} more
-                    </span>
-                  )}
                 </div>
               </div>
             </div>

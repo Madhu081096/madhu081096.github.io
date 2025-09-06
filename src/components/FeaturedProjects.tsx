@@ -11,8 +11,6 @@ const FeaturedProjects = () => {
       liveUrl: "#",
       githubUrl: "#",
       date: "2024",
-      impact: "Intelligent Document Processing",
-      accuracy: "Context-Aware Responses",
       featured: true
     },
     {
@@ -23,20 +21,16 @@ const FeaturedProjects = () => {
       liveUrl: "#",
       githubUrl: "#",
       date: "2021",
-      impact: "Published Research",
-      accuracy: "Significant Improvements",
       featured: true
     },
     {
       title: "Simulation and Automatic Detection of Artifacts in MRI Images",
       description: "Collaborated with GE Healthcare data scientists and researchers to simulate artifacts in MRI images and developed algorithms to automatically classify images based on the severity of artifacts.",
-      technologies: ["MRI", "Artifact Simulation", "Classification", "GE Healthcare", "Python", "Quality Control"],
+      technologies: ["MRI Imaging", "Image Processing", "Artifact Simulation", "Image Classification", "Python", "PyTorch"],
       image: "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=800",
       liveUrl: "#",
       githubUrl: "#",
       date: "2021",
-      impact: "GE Healthcare Collaboration",
-      accuracy: "Artifact Classification",
       featured: true
     }
   ];
@@ -102,33 +96,19 @@ const FeaturedProjects = () => {
                   
                   <p className="text-gray-600 mb-6 leading-relaxed text-lg">{project.description}</p>
                   
-                  <div className="grid grid-cols-2 gap-4 mb-6">
-                    <div className="bg-gradient-to-r from-green-50 to-emerald-50 p-4 rounded-xl">
-                      <div className="flex items-center gap-2 mb-2">
-                        <TrendingUp className="text-green-600" size={20} />
-                        <span className="font-semibold text-green-800">Impact</span>
-                      </div>
-                      <p className="text-green-700 font-medium">{project.impact}</p>
+                  <div className="mb-6">
+                    <h4 className="text-lg font-semibold text-gray-900 mb-3">Tech Stack:</h4>
+                    <div className="flex flex-wrap gap-3">
+                      {project.technologies.map((tech, techIndex) => (
+                        <span 
+                          key={techIndex}
+                          className="px-4 py-2 bg-gradient-to-r from-purple-100 to-blue-100 text-purple-800 text-sm font-medium rounded-full flex items-center gap-1"
+                        >
+                          <Tag size={12} />
+                          {tech}
+                        </span>
+                      ))}
                     </div>
-                    <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-4 rounded-xl">
-                      <div className="flex items-center gap-2 mb-2">
-                        <Star className="text-blue-600" size={20} />
-                        <span className="font-semibold text-blue-800">Accuracy</span>
-                      </div>
-                      <p className="text-blue-700 font-medium">{project.accuracy}</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex flex-wrap gap-3">
-                    {project.technologies.map((tech, techIndex) => (
-                      <span 
-                        key={techIndex}
-                        className="px-4 py-2 bg-gradient-to-r from-purple-100 to-blue-100 text-purple-800 text-sm font-medium rounded-full flex items-center gap-1"
-                      >
-                        <Tag size={12} />
-                        {tech}
-                      </span>
-                    ))}
                   </div>
                 </div>
               </div>
