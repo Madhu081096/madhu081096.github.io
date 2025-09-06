@@ -6,15 +6,6 @@ const AIHeader = () => {
     <header className="bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 text-white py-20">
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center gap-12">
-          <div className="relative">
-            <div className="w-40 h-40 bg-gradient-to-br from-purple-400 via-pink-400 to-blue-400 rounded-full flex items-center justify-center text-5xl font-bold shadow-2xl">
-              <Brain size={60} className="text-white" />
-            </div>
-            <div className="absolute -top-2 -right-2 w-12 h-12 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-full flex items-center justify-center">
-              <Award size={20} className="text-white" />
-            </div>
-          </div>
-          
           <div className="flex-1 text-center lg:text-left">
             <h1 className="text-4xl lg:text-5xl font-bold mb-3 bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent">
               Madhu Mithra K K
@@ -49,7 +40,7 @@ const AIHeader = () => {
               <a href="#" className="text-purple-200 hover:text-white transition-colors">
                 <Github size={28} />
               </a>
-              <a href="#" className="text-purple-200 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/in/madhumithra-krishnamoorthy-49981a153/" className="text-purple-200 hover:text-white transition-colors">
                 <Linkedin size={28} />
               </a>
             </div>

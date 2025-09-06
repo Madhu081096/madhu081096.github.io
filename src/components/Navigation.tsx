@@ -41,8 +41,7 @@ const Navigation: React.FC<NavigationProps> = ({ activeTab, onTabChange }) => {
             >
               <FolderOpen size={18} />
               All Projects
-            </button>
-          </div>
+          <span className="text-xl font-bold text-gray-900">ML Engineer Portfolio</span>
         </div>
       </div>
     </nav>

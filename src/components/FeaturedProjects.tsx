@@ -4,39 +4,39 @@ import { ExternalLink, Github, Calendar, Tag, Star, TrendingUp } from 'lucide-re
 const FeaturedProjects = () => {
   const featuredProjects = [
     {
-      title: "Reference-Based Texture Transfer for MRI Super-Resolution",
-      description: "Developed a reference-based, unpaired multi-contrast texture-transfer strategy for deep learning based in-plane and across-plane super-resolution of MRI spine images. Published in IEEE ISBI 2021 with improvements across all baseline architectures.",
-      technologies: ["PyTorch", "Deep Learning", "Medical Imaging", "Super-Resolution", "MRI", "Texture Transfer"],
+      title: "PDF Reader using LangChain & GPT-OSS",
+      description: "Built an intelligent PDF reader leveraging LangChain and GPT-OSS to enable context-aware querying and summarization of documents. Utilized FAISS as a vector database to store chunked PDF embeddings generated using Sentence-Transformer (all-mpnet-base-v2). Implemented a retrieval-based pipeline where user queries are matched with the most relevant PDF chunks, and GPT-OSS is used to generate accurate answers and concise summaries.",
+      technologies: ["LangChain", "GPT-OSS", "FAISS", "Sentence-Transformers", "all-mpnet-base-v2", "Python"],
+      image: "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=800",
+      liveUrl: "#",
+      githubUrl: "#",
+      date: "2024",
+      impact: "Intelligent Document Processing",
+      accuracy: "Context-Aware Responses",
+      featured: true
+    },
+    {
+      title: "Reference-Based Texture Transfer for MRI Super-Resolution (IEEE ISBI 2021)",
+      description: "Developed a reference-based, unpaired multi-contrast texture transfer strategy for deep learning-based in-plane and across-plane super-resolution of MRI spine images. Achieved significant improvements over baseline architectures and published the work in IEEE ISBI 2021.",
+      technologies: ["Deep Learning", "CNNs", "MRI Super-Resolution", "Texture Transfer", "Python", "PyTorch"],
       image: "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=800",
       liveUrl: "#",
       githubUrl: "#",
       date: "2021",
       impact: "Published Research",
-      accuracy: "Quality Improvement",
+      accuracy: "Significant Improvements",
       featured: true
     },
     {
-      title: "Vertebrae Level Fracture Classification",
-      description: "Collaborated with Eindhoven Medical Robotics to classify vertebrae level fractures in CT images. Constructed Digitally Reconstructed Radiograph (DRR) of CT volumes for accurate fracture classification in clinical settings.",
-      technologies: ["CT Imaging", "DRR", "Classification", "Medical Robotics", "Python", "Medical AI"],
-      image: "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=800",
-      liveUrl: "#",
-      githubUrl: "#",
-      date: "2021",
-      impact: "Medical Collaboration",
-      accuracy: "Clinical Grade",
-      featured: true
-    },
-    {
-      title: "MRI Artifact Detection and Simulation",
-      description: "Collaborated with GE Healthcare data scientists to develop algorithms for simulating artifacts in MRI and classifying images based on artifact severity. Advanced automated quality control for medical imaging systems.",
+      title: "Simulation and Automatic Detection of Artifacts in MRI Images",
+      description: "Collaborated with GE Healthcare data scientists and researchers to simulate artifacts in MRI images and developed algorithms to automatically classify images based on the severity of artifacts.",
       technologies: ["MRI", "Artifact Simulation", "Classification", "GE Healthcare", "Python", "Quality Control"],
       image: "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=800",
       liveUrl: "#",
       githubUrl: "#",
       date: "2021",
-      impact: "Industry Collaboration",
-      accuracy: "Automated Detection",
+      impact: "GE Healthcare Collaboration",
+      accuracy: "Artifact Classification",
       featured: true
     }
   ];
