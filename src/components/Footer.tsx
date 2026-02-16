@@ -13,7 +13,7 @@ const Footer = () => {
           
           <div className="flex flex-wrap justify-center gap-6 mb-8">
             <a
-              href="mailto:kkm81096@gmail.com"
+              href="mailto:kkmadhumithra@gmail.com"
               className="flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors duration-200"
             >
               <Mail className="w-5 h-5" />
