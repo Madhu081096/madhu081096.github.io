@@ -14,11 +14,11 @@ const Header = () => {
           </p>
           <div className="flex flex-wrap justify-center gap-6 text-blue-200">
             <a
-              href="mailto:kkm81096@gmail.com"
+              href="mailto:kkmadhumithra@gmail.com"
               className="flex items-center gap-2 hover:text-white transition-colors duration-200"
             >
               <Mail className="w-5 h-5" />
-              kkm81096@gmail.com
+              kkmadhumithra@gmail.com
             </a>
             <div className="flex items-center gap-2">
               <MapPin className="w-5 h-5" />
